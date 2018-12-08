@@ -1,0 +1,26 @@
+/*estilização de botão padrão*/
+.button {
+  height: 50px;
+  width: 100%;
+  border:2px solid #f2f1f0;
+  border-bottom:4px solid rgb(146, 145, 145);
+}
+
+/*estilização do botão de pesquisa*/
+.button-danger {
+  color:#FFF;
+  background-color:rgb(250, 71, 71);
+  border:2px solid rgb(250, 1, 1);
+  border-bottom:4px solid rgb(179, 1, 1);
+}
+
+/*estilização do botão de pesquisa*/
+.button-search {
+  color:#FFF;
+  width: 25%;
+  background-color:rgb(71, 199, 71);
+  border:2px solid rgb(71, 199, 71);
+  border-bottom:4px solid rgb(40, 117, 40);
+  border-radius: 0px 5px 5px 0px;
+  float: right;
+}

@@ -1,0 +1,28 @@
+/*controle geral da tabela*/
+table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+/*controle das linhas da tabela*/
+table tr td{
+  border:2px solid rgb(146, 144, 144);
+  padding: 10px;
+}
+
+/*efeito zebrado na tabela*/
+table tr:nth-child(2n+2){
+  background-color: #ccc;
+}
+
+/*centralizar somente a coluna  01*/
+table tr td:nth-child(2n+1){
+  text-align: center;
+  text-transform: capitalize;
+}
+
+/*formatação da mensagem de erro*/
+table tr .error{
+  background-color: rgb(255, 205, 205);
+  border:2px solid rgb(255, 205, 205);
+}

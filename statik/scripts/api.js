@@ -1,9 +1,11 @@
 /**
- *
- *
- *
- *
- *
+ * Responsável por:
+ *  - capturar o submit do formuláro.
+ *  - Realziar a request AJAX.
+ *  - Validar o resultado.
+ *  - Formatar o resultado da consulta.
+ *  - Exibir o resultado da consulta.
+ *  - Armazenar os intens pesquisados no histórico.
  */
 
 /**
